@@ -1,0 +1,10 @@
+# OS files
+desktop.ini
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp

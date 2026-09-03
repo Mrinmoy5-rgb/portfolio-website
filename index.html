@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Mrinmoy Debnath, a Computer Science Engineering student focused on Python, Java, machine learning, and data analytics."
+    />
+    <meta property="og:title" content="Mrinmoy Debnath | Portfolio" />
+    <meta
+      property="og:description"
+      content="Projects, skills, credentials, and contact details for Mrinmoy Debnath."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/mrinmoy_portfolio_avatar.png" />
+
+    <title>Mrinmoy Debnath | Computer Science Engineer</title>
+    <link rel="icon" type="image/png" href="assets/icons/icons8-m-67.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Mrinmoy Debnath home">
+          <img src="assets/icons/icons8-m-67.png" alt="" />
+          <span>Mrinmoy</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="site-menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-panel" id="site-menu">
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#credentials">Credentials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <div class="nav-actions">
+            <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch theme" aria-pressed="false">
+              <img id="theme-icon" src="assets/icons/light.png" alt="" />
+            </button>
+            <a class="social-link" href="https://www.linkedin.com/in/mrinmoy-debnath-548413361/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <img src="assets/icons/linkedin.svg" alt="" />
+            </a>
+            <a class="social-link" href="https://github.com/Mrinmoy5-rgb" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <img src="assets/icons/github.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Computer Science Engineer</p>
+          <h1>Mrinmoy Debnath</h1>
+          <p class="hero-text">
+            I build practical software and data-driven projects with Python,
+            Java, machine learning, and analytics. Based in West Bengal, I am
+            focused on turning ideas into useful, reliable solutions.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn" href="assets/resume_md.pdf" download>Download Resume</a>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Profile summary">
+          <div class="avatar-shell">
+            <img src="assets/mrinmoy_portfolio_avatar.png" alt="Portrait of Mrinmoy Debnath" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Developer mindset with an analytical eye.</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            I am a B.Tech Computer Science and Engineering student at College of
+            Engineering and Management, Kolaghat. My work combines programming,
+            analytics, and problem solving across academic and self-built projects. I
+            enjoy projects where code creates a visible result: dashboards,
+            predictions, games, automation, and database-backed systems.
+          </p>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Core Capabilities</h2>
+        </div>
+        <div class="skill-grid">
+          <article class="info-card">
+            <h3>Languages</h3>
+            <p>Python, Java, C, SQL, HTML, CSS</p>
+          </article>
+          <article class="info-card">
+            <h3>Data Science and ML</h3>
+            <p>NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, PyTorch</p>
+          </article>
+          <article class="info-card">
+            <h3>Web and APIs</h3>
+            <p>FastAPI, Streamlit</p>
+          </article>
+          <article class="info-card">
+            <h3>Business Intelligence</h3>
+            <p>Power BI, Excel</p>
+          </article>
+          <article class="info-card">
+            <h3>Developer Tools</h3>
+            <p>Git, GitHub, VS Code</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-heading wide">
+          <div>
+            <p class="eyebrow">Projects</p>
+            <h2>Selected Work</h2>
+          </div>
+          <div class="filter-group" aria-label="Filter projects">
+            <button class="filter-btn active" type="button" data-filter="featured" aria-pressed="true">Top</button>
+            <button class="filter-btn" type="button" data-filter="python" aria-pressed="false">Python</button>
+            <button class="filter-btn" type="button" data-filter="java" aria-pressed="false">Java</button>
+            <button class="filter-btn" type="button" data-filter="ml" aria-pressed="false">ML</button>
+            <button class="filter-btn" type="button" data-filter="data" aria-pressed="false">DA</button>
+          </div>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-category="data python" data-featured="true">
+            <span class="project-number">01</span>
+            <h3>Diwali Sales Data Analysis</h3>
+            <p class="stack">Python / Pandas / Seaborn</p>
+            <p>Analyzed retail sales data to identify customer segments, purchase trends, and useful business insights.</p>
+            <a href="https://github.com/Mrinmoy5-rgb/data-analytics-projects/tree/main/diwali-sales-analysis" target="_blank" rel="noopener noreferrer">View source</a>
+          </article>
+
+          <article class="project-card" data-category="data python" data-featured="true">
+            <span class="project-number">09</span>
+            <h3>Customer Shopping Behavior Analysis</h3>
+            <p class="stack">Python / SQL / Power BI</p>
+            <p>Analyzed customer shopping behavior to uncover spending patterns, product preferences, and actionable retail insights.</p>
+            <a href="https://github.com/Mrinmoy5-rgb/data-analytics-projects/tree/main/customer-shopping-behavior-analysis" target="_blank" rel="noopener noreferrer">View source</a>
+          </article>
+
+          <article class="project-card" data-category="python">
+            <span class="project-number">02</span>
+            <h3>Aim Trainer</h3>
+            <p class="stack">Python / Pygame</p>
+            <p>Reflex training game with dynamic targets, score tracking, and timing-based interaction.</p>
+            <a href="https://github.com/Mrinmoy5-rgb/MrinmoyDebnath-7/blob/main/Aim_Trainer.py" target="_blank" rel="noopener noreferrer">View source</a>
+          </article>
+
+          <article class="project-card" data-category="python">
+            <span class="project-number">03</span>
+            <h3>Penalty Quiz</h3>
+            <p class="stack">Python</p>
+            <p>Quiz application with answer validation, scoring rules, and penalty-based game logic.</p>
+            <a href="https://github.com/Mrinmoy5-rgb/MrinmoyDebnath-7/blob/main/PenaltyQuiz.py" target="_blank" rel="noopener noreferrer">View source</a>
+          </article>
+
+          <article class="project-card" data-category="java" data-featured="true">
+            <span class="project-number">04</span>
+            <h3>Banking System</h3>
+            <p class="stack">Java / JDBC / MySQL</p>
+            <p>Banking system with authentication, account operations, transaction handling, and database integration.</p>
+            <a href="https://github.com/Mrinmoy5-rgb/JAVA_PROGRAM/tree/main/src/Banking_System_JAVA" target="_blank" rel="noopener noreferrer">View source</a>
+          </article>
+
+          <article class="project-card" data-category="ml python">
+            <span class="project-number">05</span>
+            <h3>Restaurant Rating Prediction</h3>
+            <p class="stack">Python / Machine Learning</p>
+            <p>Prediction model using preprocessing and feature engineering to estimate restaurant ratings.</p>
+            <a href="https://github.com/Mrinmoy5-rgb/Machine-Learning-Projects/tree/main/Cognifyz_Machine_Learning_Internship/TASK-1" target="_blank" rel="noopener noreferrer">View source</a>
+          </article>
+
+          <article class="project-card" data-category="ml python">
+            <span class="project-number">06</span>
+            <h3>Cuisine Classification</h3>
+            <p class="stack">Python / Machine Learning</p>
+            <p>Supervised learning project for classifying cuisine categories from restaurant data features.</p>
+            <a href="https://github.com/Mrinmoy5-rgb/Machine-Learning-Projects/tree/main/Cognifyz_Machine_Learning_Internship/TASK-3" target="_blank" rel="noopener noreferrer">View source</a>
+          </article>
+
+          <article class="project-card" data-category="ml python" data-featured="true">
+            <span class="project-number">07</span>
+            <h3>Car Price Prediction</h3>
+            <p class="stack">Python / Machine Learning / Streamlit</p>
+            <p>Used car price prediction with model, year, fuel type, kilometers driven, and an interactive Streamlit UI.</p>
+            <a href="https://github.com/Mrinmoy5-rgb/Machine-Learning-Projects/tree/main/INTERNPE_Machine_Learning_Internship/car-price-prediction" target="_blank" rel="noopener noreferrer">View source</a>
+          </article>
+
+          <article class="project-card" data-category="ml python">
+            <span class="project-number">08</span>
+            <h3>Diabetes Prediction</h3>
+            <p class="stack">Python / Machine Learning</p>
+            <p>Model predicting diabetes likelihood from health indicators including glucose, BMI, age, and blood pressure.</p>
+            <a href="https://github.com/Mrinmoy5-rgb/Machine-Learning-Projects/tree/main/INTERNPE_Machine_Learning_Internship/Diabetes%20Prediction" target="_blank" rel="noopener noreferrer">View source</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section credentials" id="credentials">
+        <div class="section-heading">
+          <p class="eyebrow">Credentials</p>
+          <h2>Education and Certifications</h2>
+        </div>
+        <div class="credential-grid">
+          <article class="info-card">
+            <h3>Academic History</h3>
+            <ul class="clean-list">
+              <li><strong>B.Tech CSE</strong><span>College of Engineering and Management, Kolaghat</span><span>Average SGPA: 8.12</span></li>
+              <li><strong>Higher Secondary Science</strong><span>Nabadwip Hindu School</span><span>Percentage: 80%</span></li>
+            </ul>
+          </article>
+          <article class="info-card">
+            <h3>Certifications</h3>
+            <ul class="link-list">
+              <li><a href="https://github.com/Mrinmoy5-rgb/Mrinmoy5-rgb/blob/main/PBL%202025%20DA%20Certificate.pdf" target="_blank" rel="noopener noreferrer">IBM SkillsBuild - Decoding Data and Analytics</a></li>
+              <li><a href="https://github.com/Mrinmoy5-rgb/Mrinmoy5-rgb/blob/main/PW%20CERTIFICATE.pdf" target="_blank" rel="noopener noreferrer">IBM-PW Generative AI Program</a></li>
+              <li><a href="https://github.com/Mrinmoy5-rgb/Mrinmoy5-rgb/blob/main/JAVA%20Certificate-GFG.pdf" target="_blank" rel="noopener noreferrer">Java: Beginner to Advanced - GeeksforGeeks</a></li>
+              <li><a href="https://github.com/Mrinmoy5-rgb/Mrinmoy5-rgb/blob/main/Coursera%20IG8BMOD3JDTP.pdf" target="_blank" rel="noopener noreferrer">Coursera Excel Project</a></li>
+              <li><a href="https://github.com/Mrinmoy5-rgb/Mrinmoy5-rgb/blob/main/DELOITTE%20DATA%20ANALYST.pdf" target="_blank" rel="noopener noreferrer">Deloitte Data Analyst Certification</a></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's build something useful.</h2>
+          <p>Nabadwip, West Bengal</p>
+          <div class="contact-links">
+            <a href="mailto:mrinmoydebnath005@gmail.com"><span class="contact-icon" aria-hidden="true">&#9993;</span>mrinmoydebnath005@gmail.com</a>
+            <a href="tel:+918389824473"><span class="contact-icon" aria-hidden="true">&#9742;</span>+91 8389824473</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" action="https://formspree.io/f/xdalrkey" method="POST">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" autocomplete="email" required />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send Message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/Mrinmoy5-rgb" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+      <p>Copyright 2026 Mrinmoy Debnath. Made with passion.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
