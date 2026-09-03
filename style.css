@@ -347,7 +347,7 @@ h3 {
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: var(--radius);
-  filter: grayscale(50%) contrast(1.08);
+  filter: grayscale(35%) contrast(1.08);
 }
 
 .stack {
